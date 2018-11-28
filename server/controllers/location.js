@@ -41,7 +41,7 @@ class LocationController {
     return Location.all()
       .then(locationDetails => res.status(200).send(locationDetails))
       .catch(error => res.status(500).send({
-        message: 'An error occured and book cannot be returned',
+        message: 'An error occured',
         error,
       }));
   }
