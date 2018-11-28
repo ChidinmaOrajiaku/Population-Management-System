@@ -11,10 +11,10 @@ const helpers = {
   },
 
   /**
-   * Change the first letter of the location name to capital letter.
+   * Change the location name to capital letters.
    * @param {string} state
    */
-  locationFirstLetterToUpperCase: state => state.charAt(0).toUpperCase() + state.slice(1),
+  locationFirstLetterToUpperCase: state => state.toUpperCase(),
 };
 
 
